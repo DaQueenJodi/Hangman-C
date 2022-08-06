@@ -1,0 +1,320 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug  6 17:54:43 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+VSCODE_CWD = /home/jodi
+# environment
+WINDOWPATH = 1
+# environment
+GCC_SPECS = 
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 11)
+LDLLIBS = $(foreach library, $(program_LIBRARIES), -l$(library))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /hdd/Documents/Programming/C/Hangman
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/mail/jodi
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/jodi/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/jodi/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /hdd/Documents/Programming/C/Hangman
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = |lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# makefile (from 'Makefile', line 2)
+program_CXX_SRCS := 
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 9058
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+MANPAGER = manpager
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /usr/share/gcc-data/x86_64-pc-linux-gnu/11.3.0/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.38/man:/etc/java-config-2/current-system-vm/man/:/usr/local/share/man:/usr/share/man:/usr/lib/rust/man:/usr/lib/llvm/14/share/man
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-gb0fhKon29,guid=7b3d7db93afa2e82a249193962ee99a2
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+INFOPATH = /usr/share/gcc-data/x86_64-pc-linux-gnu/11.3.0/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.38/info:/usr/share/info:/usr/share/info/emacs-28
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 4
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/jodi/.local/custom_bin:/home/jodi/.emacs.d/bin:/home/jodi/.config/bspwm/scripts/bin:/home/jodi:/home/jodi/gentoo/helper-scripts:/home/jodi/.local/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/14/bin
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+ROOTPATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/14/bin
+# makefile (from 'Makefile', line 6)
+program_LIBRARY_DIRS := 
+# environment
+SXHKD_SHELL = /bin/dash
+# automatic
+?F = $(notdir $?)
+# environment
+GSETTINGS_BACKEND = dconf
+# environment
+XDG_SEAT = seat0
+# makefile (from 'Makefile', line 3)
+program_CXX_OBJS := 
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R -M --shift 5
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 7)
+program_LIBRARIES := SDL2 SDL2_image SDL2main SDL2_ttf
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = jodi
+# environment
+CONFIG_PROTECT_MASK = /etc/sandbox.d /etc/fonts/fonts.conf /etc/gentoo-release /etc/terminfo /etc/dconf /etc/ca-certificates.conf /etc/revdep-rebuild
+# makefile (from 'Makefile', line 9)
+CPPFLAGS = $(foreach includedir, $(program_INCLUDE_DIRS), -I$(includedir)) -std=c++20 -Wall -Wextra -g
+# environment
+CONFIG_PROTECT = /usr/share/gnupg/qualified.txt
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = jodi
+# default
+MAKE_VERSION := 4.3
+# environment
+HUSHLOGIN = FALSE
+# makefile (from 'Makefile', line 10)
+LDFLAGS = $(foreach libarydir, $(program_LIBRARY_DIRS), -L$(librarydir))
+# makefile (from 'Makefile', line 1)
+program_NAME := bin/main
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/jodi
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-fabbd96e-1.69.2-main.sock
+# environment
+TERM = linux
+# environment
+XDG_SESSION_ID = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 5)
+program_INCLUDE_DIRS := include/ /usr/include
+# makefile (from 'Makefile', line 4)
+program_OBJS := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# variable set hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=5/141=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 2069, inode 5898953): 5 files, no impossibilities.
+# . (device 2069, inode 5898952): 7 files, no impossibilities.
+
+# 12 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+distclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 17:54:35.515057131
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	@- $(RM) $(program_NAME)
+	@- $(RM) $(program_CXX_OBJS)
+
+bin/main:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := bin/main
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/16=19%
+#  recipe to execute (from 'Makefile', line 18):
+	$(LINK.cc) $(program_OBJS) -o $(program_NAME) $(LDLLIBS) 
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: bin/main
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean distclean
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 131 B / avg = 7 B
+# current buf: size = 8162 B / used = 131 B / count = 18 / avg = 7 B
+
+# strcache performance: lookups = 37 / hit rate = 51%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=0/37=0%
+# Finished Make data base on Sat Aug  6 17:54:43 2022
+
+ 

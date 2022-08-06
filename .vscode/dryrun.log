@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/hdd/Documents/Programming/C/Hangman'
+c++   -Iinclude/  -I/usr/include -std=c++20 -Wall -Wextra -g    -o bin/main  -lSDL2  -lSDL2_image  -lSDL2main  -lSDL2_ttf 
+make: Leaving directory '/hdd/Documents/Programming/C/Hangman'
+ 
