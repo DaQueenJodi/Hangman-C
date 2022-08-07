@@ -1,1 +1,41 @@
-[]
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-I/usr/include",
+            "-o",
+            "bin/main",
+            "src/main.c"
+        ],
+        "directory": "/hdd/Documents/Programming/C/Hangman",
+        "file": "src/main.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-I/usr/include",
+            "-o",
+            "bin/main",
+            "src/game.c"
+        ],
+        "directory": "/hdd/Documents/Programming/C/Hangman",
+        "file": "src/game.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-I/usr/include",
+            "-o",
+            "bin/main",
+            "src/string.c"
+        ],
+        "directory": "/hdd/Documents/Programming/C/Hangman",
+        "file": "src/string.c"
+    }
+]

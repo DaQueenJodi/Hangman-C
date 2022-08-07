@@ -1,12 +1,13 @@
+#pragma once
+
 typedef struct {
-        char* head; // last added item
         char* buffer; // start of the buffer
-        int size;
+        int index; // index of last addded item
         int capacity;
-} String;
+} string;
 
 
-void string_append(String* s, char c);
-char string_pop(String* s);
-String string_new(String* s);
-String string_from(char* characters);
+void string_push(string* s, char c);
+char string_pop(string* s);
+string string_new();
+string string_from(char* characters);
