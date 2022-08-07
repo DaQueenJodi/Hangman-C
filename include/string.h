@@ -2,11 +2,12 @@
 
 typedef struct {
         char* buffer; // start of the buffer
-        int index; // index of last addded item
-        int capacity;
+        unsigned int index; // index of last addded item
+        unsigned int capacity;
 } string;
 
 
+string string_clone(string* s);
 void string_push(string* s, char c);
 char string_pop(string* s);
 string string_new();

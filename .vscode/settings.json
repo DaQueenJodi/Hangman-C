@@ -3,6 +3,8 @@
                 "*.tcc": "c",
                 "istream": "c",
                 "ostream": "c",
-                "sstream": "c"
+                "sstream": "c",
+                "util.h": "c",
+                "string.h": "c"
         }
 }

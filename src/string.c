@@ -38,3 +38,9 @@ string string_new() {
         return s;
 }
 
+string string_clone(string* s) {
+        string t = string_new();
+        t.index = s->index;
+        t.capacity = s->capacity;
+        memcpy(t.buffer, s->buffer, s->capacity); // copy the contents of string a's buffer to string b's buffer
+}
